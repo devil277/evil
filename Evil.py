@@ -1,5 +1,4 @@
-
-_import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 
 from multiprocessing.pool import ThreadPool
 
@@ -25,9 +24,7 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 
 def keluar():
 
-	print "\033[1;96m[!] \x1b[1;91mExit"
-
-	os.sys.exit()
+	print "\033[1;96m[!] \x1b[1;91mExit"	os.sys.exit()
 
 def acak(b):
 
@@ -71,7 +68,7 @@ def jalan(z):
 
 logo = """
 
-   FAHAD HACKER
+   Asif Javed
 
    ▄︻̷̿┻̿═━一
 
@@ -89,4 +86,4 @@ logo = """
 
 \033[1;96mAuthor  \033[1;93m: \033[1;92mlove
 
-\033[1;96mYouTube \033[1;93m: \033[1;92mP
+\033[1;96mYouTube \033[1;93m: \033[1;92mPaki
